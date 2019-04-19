@@ -1,0 +1,14 @@
+{
+  "name": "expo-pre-post-build-script",
+  "version": "1.0.0",
+  "description": "a pre and post script for provisioning the app.json file with environment variables for an expo app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Torsten Regemortel",
+  "license": "ISC",
+  "bin": {
+    "expo-pre-post": "./index.js"
+  }
+}

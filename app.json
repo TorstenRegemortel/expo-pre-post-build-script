@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "privacy": "unlisted",
+    "sdkVersion": "32.0.0",
+    "notification": {
+      "icon": "./assets/app_icons/itzu_transparant_96x96.png",
+      "color": "#EDA300",
+      "androidMode": "collapse",
+      "androidCollapsedTitle": "unread notifications"
+    },
+    "android": {
+      "icon": "./assets/app_icons/itzu_1024x1024.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app_icons/itzu_transparant_1024x1024.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "supportsTablet": false,
+      "icon": "./assets/app_icons/itzu_1024x1024.png"
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_icons/itzu_1024x1024.png",
+    "splash": {
+      "image": "./assets/background/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
